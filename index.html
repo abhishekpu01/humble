@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <title>Project-Humble,delivers best mental health consultants</title>
+</head>
+
+<body>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" style="background:white;">
+        <div class="container-fluid py-3">
+            <a class="navbar-brand px-lg-4 px-md-3 px-sm-5" href="#"><i><b>HUMBLE</b></i></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="container">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item px-lg-4 px-md-3 px-sm-5">
+                            <a class="nav-link active" aria-current="page" href="#"><b>Home</b></a>
+                        </li>
+                        <li class="nav-item px-lg-4 px-md-3 px-sm-5">
+                            <a class="nav-link" href="#"><b>About us</b></a>
+                        </li>
+                        <li class="nav-item dropdown px-lg-4 px-md-3 px-sm-5">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false"><b>
+                                    Our services</b>
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Mental health issues</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Psychology</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item px-lg-4 px-md-3 px-sm-5">
+                            <a class="nav-link " href="#"><b>Our teams</b></a>
+                        </li>
+                        <li class="nav-item px-lg-4 px-md-3 px-sm-5">
+                            <a class="nav-link" href="#" data-bs-target="#loginModal"  data-bs-toggle="modal"><b>Login</b></a>
+                        </li>
+                        <li class="nav-item px-lg-4 px-md-3 px-sm-5">
+                            <a class="nav-link " href="#" data-bs-target="#signupModal"  data-bs-toggle="modal"><b>Sign up</b></a>
+                        </li>
+                        <li class="nav-item px-lg-4 px-md-3 px-sm-5">
+                            <a class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                    fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                    <path
+                                        d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                                </svg></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+  <!-- Modal -->
+  <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="loginModalLabel">Login</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <div class="mb-3">
+                <label for="loginFormControlInput1" class="form-label">Email</label>
+                <input type="email" class="form-control" id="loginFormControlInput1" placeholder="name@example.com">
+              </div>
+              <div class="mb-3">
+                <label for="loginFormControlInput2" class="form-label">Password</label>
+                <input type="password" class="form-control" id="loginFormControlInput2" placeholder="your password">
+              </div>
+               
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Login</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="signupModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="signupModalLabel">Login</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <form class="row g-3 needs-validation" novalidate>
+                <div class="col-md-4">
+                  <label for="validationCustom01" class="form-label">First name</label>
+                  <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
+                  <div class="valid-feedback">
+                    Looks good!
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <label for="validationCustom02" class="form-label">Last name</label>
+                  <input type="text" class="form-control" id="validationCustom02" value="Otto" required>
+                  <div class="valid-feedback">
+                    Looks good!
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <label for="validationCustomUsername" class="form-label">Username</label>
+                  <div class="input-group has-validation">
+                    <span class="input-group-text" id="inputGroupPrepend">@</span>
+                    <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                    <div class="invalid-feedback">
+                      Please choose a username.
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <label for="validationCustom03" class="form-label">City</label>
+                  <input type="text" class="form-control" id="validationCustom03" required>
+                  <div class="invalid-feedback">
+                    Please provide a valid city.
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <label for="validationCustom04" class="form-label">State</label>
+                  <select class="form-select" id="validationCustom04" required>
+                    <option selected disabled value="">Choose...</option>
+                    <option>...</option>
+                  </select>
+                  <div class="invalid-feedback">
+                    Please select a valid state.
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <label for="validationCustom05" class="form-label">Zip</label>
+                  <input type="text" class="form-control" id="validationCustom05" required>
+                  <div class="invalid-feedback">
+                    Please provide a valid zip.
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                    <label class="form-check-label" for="invalidCheck">
+                      Agree to terms and conditions
+                    </label>
+                    <div class="invalid-feedback">
+                      You must agree before submitting.
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <button class="btn btn-primary" type="submit">Submit form</button>
+                </div>
+              </form>
+               
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Login</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <div class="container-fluid mt-5">
+        <div class="row pt-4">
+            <div class="col-lg-6 sol-sm-12 col-md-12">
+                <img src="4.jpg" class="img-fluid">
+            </div>
+            <div class="col-lg-6 col-sm-12 col-md-12 text-white" style="background:#33664d;">
+                <h1 class="display-1 px-5 pt-lg-4 pt-sm-5 pt-md-5"><i>Your Life<br>Belongs to<br>You. Take
+                        It<br>Back.</i></h1>
+                <p class="fs-4 px-5 pt-lg-4 pt-sm-5 pt-md-5">Call Us 24/7 - 123-456-7890</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid" style="background:#ffb366;">
+        <div class="container py-5 text-white d-flex justify-content-between">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12 text-center">
+                    <h1 class="display-6"><i>Our Approaches</i></h1>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12  py-lg-0 py-md-2 py-sm-3 px-sm-auto">
+                    <p class="lead"> Our Approach I'm a title. Click here to add your own text and edit me.</p>
+                    <p class="lead">I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click
+                        “Edit Text” or double click me to add your own content and make changes to the font. Feel free
+                        to drag and drop me anywhere you like on your page. I’m a great place for you to tell a story
+                        and let your users know a little more about you.</p>
+                    <p class="lead">This is a great space to write a long text about your company and your services. You
+                        can use this space to go into a little more detail about your company. Talk about your team and
+                        what services you provide. Tell your visitors the story of how you came up with the idea for
+                        your business and what makes you different from your competitors. Make your company stand out
+                        and show your visitors who you are.</p>
+                    <button class="btn btn-outline-light mx-sm-auto mt-3">Get to Know us</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container text-center my-5">
+        <div class="d-flex justify-content-center">
+            <h1 class="display-6 "><i>Our Services & Programs</i></h1>
+        </div>
+        <div class="d-flex justify-content-center">
+            <p class="lead py-3">I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you
+                to tell
+                a story and let your users know a little more about you.</p>
+        </div>
+    </div>
+    <div class="container-fluid mt-5" style="background:#f5f5f0;">
+        <div class="container py-5">
+            <div class="row px-5">
+                <div class="col-lg-4 col-sm-12 col-md-6 py-4">
+                    <div class="card">
+                        <img src="5.webp" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-title py-2"><i>Group Therapy</i></h5>
+                            <p class="card-text py-2">I'm a paragraph. Click here to add your own text and edit me.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-12 col-md-6 py-4">
+                    <div class="card text-center">
+                        <img src="6.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title py-2"><i>Individual Therapy</i></h5>
+                            <p class="card-text py-2">I'm a paragraph. Click here to add your own text and edit me.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-12 col-md-6 py-4 mx-sm-auto">
+                    <div class="card text-center">
+                        <img src="7.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title py-2"><i>Art Therapy</i></h5>
+                            <p class="card-text py-2">I'm a paragraph. Click here to add your own text and edit me.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center py-5">
+            <button class="btn btn-outline-dark">View All Services</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
